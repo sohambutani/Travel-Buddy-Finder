@@ -1,0 +1,131 @@
+/* src/styles/Home.css */
+
+/* Existing Home Styles */
+.home-container {
+  width: 100%;
+  background-color: white; /* Set background color to white */
+}
+
+.alternating-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.content-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.left-image .content-image {
+  order: 1;
+}
+
+.left-image .content-text {
+  order: 2;
+}
+
+.right-image .content-image {
+  order: 2;
+}
+
+.right-image .content-text {
+  order: 1;
+}
+
+.content-text {
+  max-width: 50%; /* Limit the width to prevent spreading */
+  text-align: left;
+}
+
+.content-text h2 {
+  font-size: 2.5rem; /* Increase the size of the heading */
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.content-text p {
+  font-size: 1.25rem; /* Increase the size of the text */
+  color: #666;
+  line-height: 1.5; /* Increase line height for readability */
+  max-height: 6rem; /* Limit the height to 3-4 lines */
+  overflow: hidden; /* Hide text that overflows */
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.content-image img {
+  width: 500px; /* Increase the width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.content-block:nth-child(1) .content-image img {
+  margin-left: -20px; /* Adjust the amount as needed */
+}
+
+.content-block:nth-child(2) .content-image img {
+  margin-right: -20px; /* Adjust the amount as needed */
+}
+
+.content-block:nth-child(3) .content-image img {
+  margin-left: -20px; /* Adjust the amount as needed */
+}
+
+/* Why Use Section Styles */
+.why-use-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Ensure background color for the section */
+}
+
+.why-use-container h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.why-use-container .subheading {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.why-use-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: white; /* Ensure the background is white for contrast */
+}
+
+.content-item {
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.content-item img {
+  width: 50px;
+  height: auto;
+  max-width: 300px; /* Adjust image size as needed */
+  border-radius: 10px;
+}
+
+.content-item h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin: 1rem 0 0.5rem;
+}
+
+.content-item p {
+  font-size: 1rem;
+  color: #555;
+}

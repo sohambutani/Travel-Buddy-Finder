@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-private-methods": "^7.24.7",
+    "@eslint/config-array": "^0.17.1",
+    "@eslint/object-schema": "^2.1.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "mdb-react-ui-kit": "^8.0.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
